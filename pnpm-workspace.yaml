@@ -1,0 +1,5 @@
+packages:
+  # 放置各种项目
+  - "apps/*"
+  # 放置各种公共模块
+  - "packages/*"

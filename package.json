@@ -1,0 +1,30 @@
+{
+  "name": "monorepo-demo",
+  "version": "1.0.0",
+  "description": "使用 pnpm + monorepo + turborepo + vue3全家桶 + element-plus 构建一个前端项目模板",
+  "main": "index.js",
+  "private": true,
+  "scripts": {
+    "build:docs": "turbo build --filter=docs",
+    "build:web": "turbo build --filter=web",
+    "build": "turbo build",
+    "lint": "turbo lint",
+    "dev": "turbo dev",
+    "rct": "rm -rf ./node_modules/.cache/turbo",
+    "rmdist": "turbo rmdist"
+  },
+  "keywords": [
+    "monorepo",
+    "turborepo",
+    "pnpm",
+    "vue3",
+    "element-plus",
+    "工程化"
+  ],
+  "author": "liangsanshi",
+  "license": "ISC",
+  "dependencies": {
+    "repo-ui": "workspace:^",
+    "repo-utils": "workspace:^"
+  }
+}

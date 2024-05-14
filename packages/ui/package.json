@@ -1,0 +1,18 @@
+{
+  "name": "repo-ui",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "private": true,
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "liangsanshi",
+  "license": "ISC",
+  "dependencies": {
+    "element-plus": "^2.7.3",
+    "sass": "^1.77.1",
+    "vue": "^3.4.27"
+  }
+}
