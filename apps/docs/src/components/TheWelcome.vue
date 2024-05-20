@@ -1,6 +1,6 @@
 <script setup>
  import { tips } from "repo-utils";
-import { FormatMoney, Slider } from "repo-ui";
+import { Slider } from "repo-ui";
 tips("我是docs项目");
 </script>
 

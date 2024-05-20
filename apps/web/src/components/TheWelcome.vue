@@ -1,5 +1,4 @@
 <script setup>
-import { tips } from "repo-utils";
 import { FormatMoney } from "repo-ui";
 </script>
 
